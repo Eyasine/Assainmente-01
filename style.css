@@ -58,9 +58,7 @@ nav{
 .hero-contant{
     width: 100%;
     height: 786px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 1)), url(./assets/banner.jpg);
-    /* background-image: ; */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(./assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;  
@@ -91,4 +89,52 @@ nav{
 
 /* hero section end */
 
+/* gallery section  */
+.gallery-contant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 135px;
+    
+}
+
+.gallery-continer .galary-heading{
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700px;
+    padding: 80px 0 65px 0;
+    
+
+}
+.gallery-items{
+    border: 1px solid #e3e3e3;
+    border-radius: 12px;
+}
+.gallery-items img{
+    border-radius: 12px 12px 0 0;
+}
+.gallery-items .gall-item-contant{
+    padding: 24px;
+}
+.gallery-items .gall-item-contant h6{
+    font-size: 12px;
+    font-weight: 600;
+    color: #1D4ED8;
+    margin-bottom: 8px;
+
+}
+.gallery-items .gall-item-contant h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+
+}
+.gallery-items .gall-item-contant p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #575757;
+
+}
+/* gallery section  */
 
