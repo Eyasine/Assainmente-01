@@ -222,3 +222,63 @@ nav{
 }
 /* price section end */
 
+/* News latter start */
+.newsletter {
+    background: #f8f9fa;      /* Section background */
+    padding: 80px 20px;
+}
+
+.newsletter-content {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.newsletter-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 18px 20px;
+    font-size: 16px;
+    border: 2px solid #e2e2e2;   /* Left side border */
+    border-right: none;           /* Remove border between input & button */
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    background: #fff;
+}
+
+.newsletter-form button {
+    padding: 18px 35px;
+    border: 2px solid #0b5ed7;
+    background: #0b5ed7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+    background: #0b5ed7;
+}
+/* News latter end */
+
