@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* common style */
+.common-size{
+    max-width: 1200px;
+    margin: auto;
+}
+.common-btn{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 40px;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 8px;
+    border: none;
+}
+
+
+/* nav bar start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 23px auto;
+}
+
+
+.nav-contant{
+    display: flex;
+    align-items: center;
+}
+.nav-contant ul{
+    display: flex;   
+    gap: 24px;
+    list-style: none;
+    color: #575757;
+    font-size: 16px;
+}
+.nav-contant ul li{
+    color: #575757;
+    font-size: 18px;
+}
+
+/* nav bar end*/
+
+/* hero section start */
+/* .hero-banner{
+    width: 1280px;
+    height: 500px;
+} */
+.hero-contant{
+    width: 100%;
+    height: 786px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1)), url(./assets/banner.jpg);
+    /* background-image: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+    
+}
+
+.hero-styles{
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.hero-title{
+    font-size: 80px;
+    font-weight: 700;
+    padding-top: 135px;
+    margin-bottom: 16px;
+    
+    
+}
+.hero-paragraph{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 280px;
+   
+    
+}
+
+/* hero section end */
+
+
